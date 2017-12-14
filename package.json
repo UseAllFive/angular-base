@@ -8,8 +8,17 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "stage": "ng build --prod --env=staging --build-optimizer --aot",
+    "prod": "ng build --prod --env=prod --build-optimizer --aot"
   },
+  "pre-commit": [
+    "lint"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.0.0",
@@ -21,7 +30,10 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^2.1.0",
     "core-js": "^2.4.1",
+    "ress": "^1.2.2",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
@@ -41,6 +53,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "pre-commit": "^1.2.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",

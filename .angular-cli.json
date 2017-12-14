@@ -8,6 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
+        "_redirects",
         "assets",
         "favicon.ico"
       ],
@@ -19,12 +20,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/ress/dist/ress.min.css",
         "styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
+        "staging": "environments/environment.staging.ts",
         "prod": "environments/environment.prod.ts"
       }
     }

@@ -1,0 +1,23 @@
+// Grid Widths
+$bumper: 20px;
+$max-width: 1200px + (2 * $bumper);
+
+$neat-grid: (
+  gutter: $bumper
+);
+
+$s: (
+  media: 576px
+);
+
+$m: (
+  media: 768px
+);
+
+$l: (
+  media: 992px
+);
+
+$xl: (
+  media: 1200px
+);
