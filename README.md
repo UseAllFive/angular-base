@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
+## Installation
+
+```
+git clone https://github.com/UseAllFive/angular-base.git
+git remote set-url origin https://github.com/{my-git-username}/{my-git-repo}.git
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
