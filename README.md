@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Summary
 
-This is the base [Use All Five](https://useallfive.com/) Angular setup. It features a more intuitive directory structure, configuration files for [Netlify](https://www.netlify.com/), routing, scss support, and a staging environment file. 
+This is the base [Use All Five](https://useallfive.com/) Angular setup. It features a more intuitive directory structure, configuration files for [Netlify](https://www.netlify.com/), routing, scss support, a staging environment file, default metadata in index.html and more. 
 
 ## Installation
 
