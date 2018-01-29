@@ -94,7 +94,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 │   ├── environments
 │   │   ├── environment.prod.ts
 │   │   ├── environment.ts
-│   │   └── environments.staging.ts <- staging options
+│   │   └── environment.staging.ts <- staging options
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── main.ts
