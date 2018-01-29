@@ -4,5 +4,10 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  contentful: {
+    space: '',
+    accessToken: '',
+    host: 'preview.contentful.com'
+  }
 };
