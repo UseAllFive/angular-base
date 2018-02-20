@@ -13,6 +13,7 @@ To get started, simply clone this repo and update the remote origin URL.
 ```
 git clone https://github.com/UseAllFive/angular-base.git
 git remote set-url origin https://github.com/{my-git-username}/{my-git-repo}.git
+yarn install
 ```
 
 ## To update
@@ -35,10 +36,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
  
 ### Staging
-In order to package your project up using the `staging` environment file, run `npm run stage`. All files will be exported into the `dist` directory.
+In order to package your project up using the `staging` environment file, run `yarn run stage`. All files will be exported into the `dist` directory.
 
 ### Production
-In order to package your project up using the `production` environment file, run `npm run prod`. All files will be exported into the `dist` directory.
+In order to package your project up using the `production` environment file, run `yarn run prod`. All files will be exported into the `dist` directory.
 
 ## Running unit tests
 
